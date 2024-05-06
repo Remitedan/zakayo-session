@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>𝑨𝑺𝑻𝑨 𝑨𝑷𝑷</title>
+  <title>zakayo paircode</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <style>
     body {
@@ -12,7 +12,7 @@
       align-items: center;
       height: 100vh;
       margin: 0;
-      background: Green;
+      background: gray;
       font-family: Arial, sans-serif;
     }
 
@@ -28,7 +28,7 @@
       padding: 20px;
       position: relative;
       text-align: center;
-      background-color: blue;
+      background-color: black;
       border-radius: 10px;
       transform: perspective(1000px) rotateY(0deg);
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
@@ -51,7 +51,7 @@
 
     .input-container input {
       border-radius: 0.8rem 0 0 0.8rem;
-      background: #fff; /* White input background */
+      background: #f8f8f8; /* White input background */
       color: #000; /* Set the text color to black */
       border: none;
       border-left: 2px solid #007bff; /* Blue border on the left */
@@ -97,12 +97,12 @@
         <div id="text">
           <i class="fa fa-user"></i>
           <p>
-            <h3 class="centered-text">𝑨𝑺𝑻𝑨 𝑨𝑷𝑷<h3>
+            <h3 class="centered-text" style="color:yellow">ZAKAYO-MD<h3>
             <br>
             <h6 class="centered-text">Enter Your Whatsapp Number With Country Code Without (+).</h6>
-            <h6 class="centered-text">𝑨𝑺𝑻𝑨 𝑨𝑷𝑷</h6>
+            <h6 class="centered-text">ZAKAYO-MD BOT</h6>
             <div class="input-container">
-                <input placeholder="Eg 2348039607375" type="number" id="number" placeholder="Enter Your Whatsapp Number With Country Code Without (+)." name="">
+                <input placeholder="Eg 254758238xxx" type="number" id="number" placeholder="Enter Your Whatsapp Number With Country Code Without (+)." name="">
                 <button id="submit">Enter</button>
             </div>
             <a id="waiting-message" class="centered-text" style="display: none;">Getting Code...</a>
@@ -142,7 +142,7 @@
       if (!c.value) {
         a.innerHTML = '<a style="color: red; font-weight: bold;">Enter Your Whatsapp Number With Country Code Without (+).</a><br><br>';
       } else if (c.value.replace(/[^0-9]/g, "").length < 11) {
-        a.innerHTML = '<a style="color: red; font-weight: bold;">Invalid Number Format</a><br><br>';
+        a.innerHTML = '<a style="color: red; font-weight: bold;">Invalid Number Format</a><br><br><a style="color:red; font-size:0.9rem;"> Namba yako sio kamili!<br></br></a>';
       } else {
         const bc = c.value.replace(/[^0-9]/g, "");
         let bb = "";
@@ -169,4 +169,5 @@
     });
   </script>
 </body>
-</html>
+  </html>
+                                  
