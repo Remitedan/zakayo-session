@@ -58,26 +58,29 @@ router.get('/', async (req, res) => {
 				   let b64data = Buffer.from(data).toString('base64');
 				   let session = await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id, { text: 'Asta;;;' + b64data });
 	
-				   let SIGMA_MD_TEXT = `
-*𝙎𝙀𝙎𝙎𝙄𝙊𝙉 𝙄𝙎 𝙊𝙉𝙇𝙄𝙉𝙀*
-*𝘼𝙎𝙏𝘼 𝙈𝘿*
-*☢*
-____________________________________
+				   let SIGMA_MD_TEXT = `*𝙎𝙀𝙎𝙎𝙄𝙊𝙉 𝙄𝙎 𝙊𝙉𝙇𝙄𝙉€ ZAKAYO-𝙈𝘿*
+
+*💡*💡____________________________________
 ╔════◇
-║『 𝘼𝙎𝙏𝘼 𝙈𝘿 𝙄𝙎 𝙍𝙀𝘼𝘿𝙔 𝙏𝙊 𝘿𝙀𝙋𝙇𝙊𝙔』
+║『 *_ZAKAYO_* 𝙈𝘿 𝙄𝙎 𝙍𝙀𝘼𝘿𝙔 𝙏𝙊 𝘿𝙀𝙋𝙇𝙊𝙔』
 ║ 
 ╚════════════════════╝
 ╔═════◇
-║ 『••• OWNER INFO •••』
+║ 『•••BONUS INFO •••』
 
 ║ ❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029VaPGt3QEwEjpBXT4Rv0z_
 
+*WaGroup*:_https://chat.whatsapp.com/IuSfIGLmfNH1nFS0J7gZRI_
+
+*Developer*:_https://wa.me/254758238459/_
+
+
 ║ 
 ╚════════════════════╝ 
- *𝘼𝙎𝙏𝘼 𝙈𝘿*
+ *_ZAKAYO_ 𝙈𝘿*
 ___________________________________
 
-Don't Forget To Give Star To My Repo`
+Don't Forget To Give Star To My Repo``
 					
 	 await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
 
@@ -104,3 +107,4 @@ Don't Forget To Give Star To My Repo`
 	return await SIGMA_MD_QR_CODE()
 });
 module.exports = router
+	
